@@ -51,6 +51,7 @@ h2              {
 
 td              {
                 padding-right: 25px;
+                border-bottom: 1px solid black;
                 }
 
 th              {
@@ -60,4 +61,4 @@ th              {
 h5              {
                 margin: 0px;
                 }
-}
+
