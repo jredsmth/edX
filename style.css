@@ -18,7 +18,7 @@ h1              {
                 margin: 0;
                 font-size: 50px;
                 line-height: 80px;
-    padding: 20px
+                padding: 20px
                 }
         
 article h2      {
@@ -51,6 +51,7 @@ h2              {
 
 td              {
                 padding-right: 25px;
+                border-bottom: 1px solid black;
                 }
 
 th              {
