@@ -1,33 +1,47 @@
-body            {
-                margin: 0;
-                background-color:cornsilk
-                }
-        
-nav ul          {
-                padding: 25px;
-                margin-top: 0px;
-                margin-left: -350px;
-                background-color:cornsilk;
+#recipe_list    { 
+                position: fixed;
+                width: 100%;
+                top: 0;
                 }
 
-nav ul:hover    {margin-left:0px;}
+body            {
+                font-size: 120%;
+                margin: 0;
+                background-color:cornsilk;
+                }
+        
+nav   ul        {
+                padding: 20px;
+                position: fixed;
+                margin-left: -377px;
+                background-color:lightgray;
+                border-radius: 10px;
+                opacity: .7;
+                margin-top: 525px;
+                border: 1px solid blue;
+                }
+
+nav ul:hover    {
+                margin-left:0px;
+                opacity: 1;
+                }
         
 h1              {
                 text-align: center;
                 background-color:cornflowerblue;
                 margin: 0;
                 font-size: 50px;
-                line-height: 80px;
-                padding: 20px
+                line-height: 40px;
+                padding: 20px;
                 }
-        
-article h2      {
-                margin-left: 0;
+
+article         {
+                margin-top: 30px;
                 }
         
 figure          {
                 margin-left: 3rem;
-                margin-bottom: -24rem
+                margin-bottom: -24rem;
                 } 
         
 h4, h3          {
@@ -35,7 +49,9 @@ h4, h3          {
                 }
 
 table, ol, ul   {
-                margin-left: 32rem
+                margin-left: 32rem;
+                min-width: 20rem;
+                max-width: 50rem;
                 }
         
 img             {
@@ -46,7 +62,8 @@ img             {
                 }
         
 h2              {
-                background-color: cornflowerblue;
+                padding-top: 120px;
+                Margin-left: 40px;
                 }
 
 td              {
@@ -57,4 +74,8 @@ td              {
 th              {
                 text-align: left;
                 width: 250px;
+                }
+
+figcaption      {
+                font-size: 75%;
                 }
