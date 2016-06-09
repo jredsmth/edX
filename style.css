@@ -2,13 +2,13 @@
                 position: fixed;
                 width: 100%;
                 top: 0;
-                }
+                                }
 
 body            {
                 font-size: 120%;
                 margin: 0;
                 background-color:cornsilk;
-                }
+                                }
         
 nav   ul        {
                 padding: 20px;
@@ -19,12 +19,12 @@ nav   ul        {
                 opacity: .7;
                 margin-top: 525px;
                 border: 1px solid blue;
-                }
+                                }
 
 nav ul:hover    {
                 margin-left:0px;
                 opacity: 1;
-                }
+                                }
         
 h1              {
                 text-align: center;
@@ -33,50 +33,63 @@ h1              {
                 font-size: 50px;
                 line-height: 40px;
                 padding: 20px;
-                }
+                                }
 
-article         {
-                margin-top: 30px;
-                }
-        
-figure          {
-                margin-left: 3rem;
-                margin-bottom: -24rem;
-                } 
-        
-h4, h3          {
-                margin-left: 30rem;
-                }
+h4, h3, ol      {
+                padding-top: 20px
+                                }
 
-table, ol, ul   {
-                margin-left: 32rem;
-                min-width: 20rem;
-                max-width: 50rem;
-                }
+table, ol       {
+                min-width: 20rem; 
+                max-width: 40rem;
+                                } 
         
 img             {
-                width: 300px;
-                height: 300px;
+                width: 450px;
+                height: 400px;
                 border: 10px solid black;
                 padding: 8px;
-                }
+                                }
         
 h2              {
+                margin-left: 3rem;
                 padding-top: 120px;
-                Margin-left: 40px;
-                }
+                                }
 
 td              {
-                padding-right: 25px;
                 border-bottom: 1px solid black;
-                }
+                                }
 
 th              {
                 text-align: left;
-                width: 250px;
-                }
+                width: 300px;
+                                }
 
-figcaption      {
-                font-size: 75%;
-                }
+div             {
+                display: flex;
+                flex-flow: row nowrap;
+                                }
+
+.instructions   {
+                padding-top: 110px;
+                margin: auto;
+                                }
+
+article         {
+                margin-left: auto;
+                flex: 1 1 50;
+                                }
+
+footer          {
+                width: 100%;
+                background-color:cornflowerblue;
+                font-size: 15px;
+                
+}
+
+.credits        {
+                
+                margin-bottom: 0;
+                margin-left: 3rem
+}
 
